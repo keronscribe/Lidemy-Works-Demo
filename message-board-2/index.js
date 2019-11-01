@@ -27,7 +27,7 @@ function switchClass(activeOne) {
 function getAllTodos(type) {
   $.ajax({
     type: 'GET',
-    url: 'http://keronscribe.tw/mtr-todos/todos.php',
+    url: 'https://keronscribe.tw/mtr-todos/todos.php',
   }).done((response) => {
     const todos = JSON.parse(response);
     num = 0;
